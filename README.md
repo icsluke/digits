@@ -72,8 +72,36 @@ Lastly, you can run ESLint over the code in the imports/ directory with:
 ```Markdown
 meteor npm run lint
 ```
-###User Interface Walkthrough
-##Landing Page
+### User Interface Walkthrough
+## Landing Page
 When you first bring up the application, you will see the landing page that provides a brief introduction to the capabilities of Digits:
 <img big centered src="https://github.com/icsluke/digits/blob/master/doc/landing.png?raw=true">
+
+### Register
+## If you do not yet have an account on the system, you can register by clicking on “Login”, then “Sign Up”:
+<img big centered src="https://github.com/icsluke/digits/blob/master/doc/Screen%20Shot%202019-03-28%20at%2012.31.39%20AM.png?raw=true">
+
+### Sign in
+Click on the Login link, then click on the Signin link to bring up the Sign In page which allows you to login:
+<img big centered src="https://github.com/icsluke/digits/blob/master/doc/Screen%20Shot%202019-03-28%20at%2012.31.47%20AM.png?raw=true">
+
+### User home page
+After successfully logging in, the system takes you to your home page. It is just like the landing page, but the NavBar contains links to list contact and add new contacts:
+<img big centered src="https://github.com/icsluke/digits/blob/master/doc/Screen%20Shot%202019-03-28%20at%2012.32.07%20AM.png?raw=true">
+
+### List Contacts
+Clicking on the List Contacts link brings up a page that lists all of the contacts associated with the logged in user:
+<img big centered src="https://github.com/icsluke/digits/blob/master/doc/Screen%20Shot%202019-03-28%20at%2012.36.07%20AM.png?raw=true">
+
+This page also allows the user to add timestamped “notes” detailing interactions they’ve had with the Contact. For example:
+<img big centered src="https://github.com/icsluke/digits/blob/master/doc/Screen%20Shot%202019-03-28%20at%2012.36.18%20AM.png?raw=true">
+
+### Edit Contacts
+From the List Contacts page, the user can click the “Edit” link associated with any Contact to bring up a page that allows that Contact information to be edited:
+<img big centered src="https://github.com/icsluke/digits/blob/master/doc/Screen%20Shot%202019-03-28%20at%2012.37.05%20AM.png?raw=true">
+
+
+### Admin mode
+It is possible to designate one or more users as “Admins” through the settings file. When a user has the Admin role, they get access to a special NavBar link that retrieves a page listing all Contacts associated with all users:
+<img big centered src="https://github.com/icsluke/digits/blob/master/doc/Screen%20Shot%202019-03-28%20at%2012.37.26%20AM.png?raw=true">
 
