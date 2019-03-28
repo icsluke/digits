@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Image, Icon } from 'semantic-ui-react';
+import { Grid, Icon } from 'semantic-ui-react';
 
 /** A simple static component to render some text for the landing page. */
 class Landing extends React.Component {
