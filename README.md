@@ -78,7 +78,7 @@ When you first bring up the application, you will see the landing page that prov
 <img big centered src="https://github.com/icsluke/digits/blob/master/doc/landing.png?raw=true">
 
 ### Register
-## If you do not yet have an account on the system, you can register by clicking on “Login”, then “Sign Up”:
+If you do not yet have an account on the system, you can register by clicking on “Login”, then “Sign Up”:
 <img big centered src="https://github.com/icsluke/digits/blob/master/doc/Screen%20Shot%202019-03-28%20at%2012.31.39%20AM.png?raw=true">
 
 ### Sign in
